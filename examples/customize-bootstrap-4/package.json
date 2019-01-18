@@ -1,0 +1,21 @@
+{
+  "name": "customize-bootstrap-4",
+  "version": "1.0.0",
+  "description": "customize boostrap 4 your own theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sokhasen/codingcase.git/examples/customize-bootstrap-4"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "sass",
+    "nodejs"
+  ],
+  "author": "sensokha <sensokha.master@gmail.com>",
+  "license": "MIT"
+}
