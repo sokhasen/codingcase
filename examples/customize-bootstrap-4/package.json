@@ -4,7 +4,8 @@
   "description": "customize boostrap 4 your own theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass/customize.sass -o dist/css"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
     "nodejs"
   ],
   "author": "sensokha <sensokha.master@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "node-sass": "^4.11.0"
+  }
 }
